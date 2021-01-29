@@ -71,7 +71,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'Licenseportalapplication.wsgi.application'
 
 
-# Database
+# Databases
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 DATABASES = {
