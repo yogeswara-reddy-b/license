@@ -63,8 +63,8 @@ class SendEmailApiView(APIView):
                     msg.attach(MIMEText(str(message), 'plain'))
                     s = smtplib.SMTP('smtp.gmail.com', 587)
                     s.starttls()
-                    s.login("yogi.b.reddy@gmail.com", "10w51a0203")
-                    s.sendmail("yogi.b.reddy@gmail.com", client.admin_point_of_contact, msg.as_string())
+                    s.login("dummymailcheck.9@gmail.com", "license@")
+                    s.sendmail("dummymailcheck.9@gmail.com", client.admin_point_of_contact, msg.as_string())
                     s.quit()
         return Response({
             'status': status.HTTP_200_OK
