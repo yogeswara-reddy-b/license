@@ -126,8 +126,8 @@ It is POST request only
 place the url http://127.0.0.1:8000/send-email/ in path and click on the send button, A mail triggered to client with corressponding details. 
 you can see the status "200_ok" below.
 
---If you want to check the corresponding mail is triggered or not change the admin_point_of contact mail to your mail id and enable less secure app access functionality in your security of google account. 
-
+--If you want to check the corresponding mail is triggered or not change the admin_point_of contact mail to your mail id and enable less secure app access functionality in your security of manage google account and retry the process again. 
+--
 
 
  
