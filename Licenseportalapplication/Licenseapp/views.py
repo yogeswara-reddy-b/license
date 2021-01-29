@@ -27,8 +27,7 @@ class ClientsAndThereAssociatedLicense(APIView):
 
 class CreateLicence(APIView):
 
-    def post(self, request):
-        import pdb;pdb.set_trace();
+    def post(self, request):    
         licence_serializer = LicenseSerializer(data=request.data)
         if licence_serializer.is_valid():
             licence_serializer.save()
