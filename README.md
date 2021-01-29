@@ -1,0 +1,2 @@
+# license
+SDK license application
